@@ -80,10 +80,9 @@ function CreateForm(props){
     Password<br/>
     <input type="password" 
       className="form-control" 
-      placeholder="Enter password" 
+      placeholder="Must be over 6 characters" 
       value={password} 
       onChange={e => setPassword(e.currentTarget.value)}/><br/>
-
     <button type="submit" 
       className="btn btn-light" 
       onClick={handle}>Create Account</button>
