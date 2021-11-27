@@ -78,9 +78,10 @@ function CreateForm(props){
       onChange={e => setEmail(e.currentTarget.value)}/><br/>
 
     Password<br/>
+    (must contain 6 characters)
     <input type="password" 
       className="form-control" 
-      placeholder="Must be over 6 characters" 
+      placeholder="Password" 
       value={password} 
       onChange={e => setPassword(e.currentTarget.value)}/><br/>
     <button type="submit" 
